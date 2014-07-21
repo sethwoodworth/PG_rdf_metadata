@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <pgterms:ebook rdf:about="ebooks/21775">
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N78c02d05a83c4213bdead94f13b9ccf1">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21775/21775.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncd5f9fff559a4d438eb64488bed15b71">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2a8a25c000b147579fe8a81e6f70a50c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">163779</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-08T16:00:57</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21775.plucker">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T03:20:32.337752</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247833</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbcb0dfa374434ce89bd1f93e4b1e0d07">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21775/21775-h/21775-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N335d1e409deb424ea50df85c16777db0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">480915</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-08T16:08:03</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21775/21775-h.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-08T16:08:27</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N56bfde68c9f34ab39459777c4317ee9b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">313549</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nee7cb4b860864602afd5b8e920c95f90">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21775.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T14:16:06.441038</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ned82c988e6ee452e91b20c3de97498ee">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">435800</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/728">
+        <pgterms:name>Lodge, Henry Cabot</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1924</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Henry_Cabot_Lodge"/>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N71c8b3d47db54285af0a7d4b2a57bf56">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21775/21775.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-08T16:00:57</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">416837</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na764030139b649d7b12f43fb43eedf6f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N32a3fb9251e84498b902069c0da91726">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PN</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:tableOfContents>Of Companions and Flatterers. by Steele&#13;
+The Story-Teller and His Art. by Steele&#13;
+Sir Roger and the Widow. by Steele&#13;
+The Coverley Family Portraits. by Steele&#13;
+On Certain Symptoms of Greatness. by Steele&#13;
+How to Be Happy tho Married. by Steele&#13;
+Of the Shortness of Human Life. by Bolingbroke&#13;
+Rules for the Study of History. by Bolingbroke&#13;
+An Ancient English Country Seat. by Pope&#13;
+His Compliments to Lady Mary. by Pope&#13;
+How to Make an Epic Poem. by Pope&#13;
+On Happiness in the Matrimonial State. by Montagu&#13;
+Inoculation for the Smallpox. by Montagu&#13;
+Of Good Manners, Dress and the World. by Chesterfield&#13;
+Of Attentions to Ladies. by Chesterfield&#13;
+Tom the Hero Enters the Stage; Partridge Sees Garrick at the Play. by Fielding from "Tom Jones"&#13;
+Mr. Adams in a Political Light. by Fielding from "Joseph Andrews"&#13;
+On Publishing His "Dictionary." by Johnson from the "Dictionary"&#13;
+Pope and Dryden Compared. by Johnson from the "Lives of the Poets"&#13;
+Letter to Chesterfield on the Completion of the "Dictionary." by Johnson from Boswell's "Life"&#13;
+On the Advantages of Living in a Garret. by Johnson&#13;
+The Character of Queen Elizabeth; The Defeat of the Armada. by Hume from the "History of England"&#13;
+The First Principles of Government. by Hume&#13;
+The Starling in Captivity; To Moulines with Maria. by Sterne from "The Sentimental Journey"&#13;
+The Death of LeFevre; Passages from the Romance of My Uncle Toby and the Widow. by Sterne from "Tristram Shandy"&#13;
+Warwick Castle. by Gray&#13;
+To His Friend Mason on the Death of Mason's Mother. by Gray&#13;
+On His Own Writings. by Gray&#13;
+His Friendship for Bonstetten. by Gray&#13;
+Hogarth. by Walpole from the "Anecdotes of Painting in England" &#13;
+The War in America. by Walpole&#13;
+The Death of George II. by Walpole&#13;
+The Chimney Swallow. by White from "The Natural History of Selborne"&#13;
+Of Ambition Misdirected. by Smith from the "Theory of Moral Sentiments"&#13;
+The Advantages of a Division of Labor. by Smith from "The Wealth of Nations" &#13;
+Professional Soldiers in Free Countries. by Blackstone from the "Commentaries"&#13;
+The Ambitions of the Vicar's Family. by Goldsmith from "The Vicar of Wakefield"&#13;
+Sagacity in Insects. by Goldsmith from "The Bee"&#13;
+A Chinaman's View of London. by Goldsmith from the "Citizen of the World"&#13;
+The Principles of Good Taste. by Burke from "The Sublime and Beautiful"&#13;
+A Letter to a Noble Lord. by Burke&#13;
+On the Death of His Son. by Burke&#13;
+Marie Antoinette. by Burke from the "Reflections on the Revolution in France"&#13;
+Of Keeping One's Self Employed. by Cowper&#13;
+Of Johnson's Treatment of Milton. by Cowper&#13;
+On the Publication of His Books. by Cowper&#13;
+The Romance of His Youth; The Inception and Completion of the "Decline and Fall;" The Fall of Zenobia; Alaric's Entry into Rome; The Death of Hosein; The Causes of the Destruction of the City of Rome. by Gibbon from "The Decline and Fall of the Roman Empire"</dcterms:tableOfContents>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nf6d48c5724d14b4193c8a51b4b132a4f">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Literature -- Collections</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21775.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">416804</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0b5e5a5db8f0476ab2e74a8233a9050b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T14:16:00.012465</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21775.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">333619</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T14:16:02.618871</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N13a77692709441889b4efaa21d2ce975">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21775/21775-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">416816</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-08T16:00:56</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Naf7e6625064a4e86949c00d826986f94">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/3081">
+        <pgterms:name>Halsey, Francis W. (Francis Whiting)</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1851</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1919</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Francis_Whiting_Halsey"/>
+      </pgterms:agent>
+    </marcrel:edt>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21775.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200700</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T14:16:01.604899</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc2258e02d7e14305b4e9a2b1844d4873">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21775/21775-8.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N54970d6a3c5445e4b2ba6b0f27f069b6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">163807</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5eb0a760d76740f780610f8ff8744cf1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-08T16:00:57</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>The Best of the World's Classics, Restricted to Prose, Vol. IV (of X)—Great Britain and Ireland II</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21775.qioo">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T03:20:27.537552</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">225730</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N53e4499ee255465c8dbb8b92a53557bb">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-08</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21775.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/21775"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N81ecd1460bf143b1b563e0b96a824b65">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">308424</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T14:16:04.386109</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+  </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Henry_Cabot_Lodge">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Francis_Whiting_Halsey">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
